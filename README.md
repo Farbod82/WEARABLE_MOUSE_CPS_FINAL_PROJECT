@@ -54,3 +54,6 @@ These Python scripts aid in scheduling, tracking, and analysis. Run with Python 
 - **histogram_plotter.py**: Plots histogram of move intervals (in %) from 'delay_intr2.csv' for timing distribution. Usage: `python histogram_plotter.py`.
 - **track_mouse.py**: Tracks real mouse movement via pynput, saves timestamps/x/y to CSV. Usage: `python track_mouse.py <output.csv>` (CTRL+C to stop).
 - **smoothness_calculator.py**: Computes/prints RMS jerk and plots jerk over time from multiple CSVs (resamples at 0.01s). Measures smoothness. Usage: `python smoothness_calculator.py` (input files at prompt).
+- 
+# First Demo of Physical Implementation 
+![Board_Demo](https://github.com/user-attachments/assets/e72364a1-a57a-4208-8578-a90a3e8e97b6)
