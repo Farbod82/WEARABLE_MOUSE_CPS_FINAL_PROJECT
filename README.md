@@ -54,9 +54,3 @@ These Python scripts aid in scheduling, tracking, and analysis. Run with Python 
 - **histogram_plotter.py**: Plots histogram of move intervals (in %) from 'delay_intr2.csv' for timing distribution. Usage: `python histogram_plotter.py`.
 - **track_mouse.py**: Tracks real mouse movement via pynput, saves timestamps/x/y to CSV. Usage: `python track_mouse.py <output.csv>` (CTRL+C to stop).
 - **smoothness_calculator.py**: Computes/prints RMS jerk and plots jerk over time from multiple CSVs (resamples at 0.01s). Measures smoothness. Usage: `python smoothness_calculator.py` (input files at prompt).
-
-## Building and Running
-1. Install Arduino IDE with ESP32 support.
-2. Add libraries: BleMouse, mabutrace (if needed).
-3. Upload desired `.cpp` to ESP32.
-4. Pair as BLE mouse.
